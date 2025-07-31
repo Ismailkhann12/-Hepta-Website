@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hepta - Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-top-row">
+          <a
+            href="https://preview.colorlib.com/theme/hepta/"
+            class="logo"
+            target="_blank"
+            >Hepta</a
+          >
+          <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="hero-content">
+          <h1>Contact</h1>
+          <p>A free template for tourism. Download and share!</p>
+        </div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <button class="close-nav" id="closeNav">
+          <i class="fas fa-times"></i>
+        </button>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hotels.html">Hotels</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-bg" id="navBg"></div>
+    </header>
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-form-box">
+          <form
+            class="contact-form"
+            id="contactForm"
+            onsubmit="document.querySelector('.contact-hero').scrollIntoView({behavior: 'smooth'}); setTimeout(function(){ this.reset(); }.bind(this), 500); return false;"
+          >
+            <div class="contact-row">
+              <input type="text" placeholder="Name" required />
+              <input type="text" placeholder="Phone" required />
+            </div>
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Write Message" rows="5" required></textarea>
+            <button type="submit" class="contact-send-btn">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info-box">
+          <div class="contact-info-item">
+            <span class="contact-info-label">Address:</span><br />
+            <span class="contact-info-value"
+              >98 West 21th Street, Suite 721<br />New York NY 10016</span
+            >
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-info-label">Phone:</span><br />
+            <span class="contact-info-value">(+1) 435 3533</span>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-info-label">Email:</span><br />
+            <span class="contact-info-value">info@yourdomain.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Happy Customers Section (copied from index.html) -->
+    <section class="testimonials">
+      <h2>Happy Customers</h2>
+      <div class="testimonial-cards">
+        <div class="testimonial-card fade-up">
+          <img src="person_1.jpg" alt="Customer 1" />
+          <p>
+            <i class="hello-1"></i>
+            “Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.”
+          </p>
+          <h4>-John Doe</h4>
+        </div>
+        <div class="testimonial-card fade-up">
+          <img src="person_2.jpg" alt="Customer 2" />
+          <p>
+            <i class="hello-2"></i>
+            “Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.”
+          </p>
+          <h4>-Jane Smith</h4>
+        </div>
+        <div class="testimonial-card fade-up">
+          <img src="person_3.jpg" alt="Customer 3" />
+          <p>
+            <i class="hello-3"></i>
+            “Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.”
+          </p>
+          <h4>-Mike Johnson</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (copied from index.html) -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Quick Link</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Term & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Rooms</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Our locations</a></li>
+            <li><a href="#">The Hosts</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Restaurant</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <ul>
+            <li>address</li>
+            <li>123 Main Street, City</li>
+            <li>Email:</li>
+            <li>info@gmail.com</li>
+            <li>Phone:</li>
+            <li>+123 456 7890</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Subscribe</h4>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Hepta. All rights reserved. | Made by Me</p>
+      </div>
+    </footer>
+    <script>
+      // Hamburger menu logic for Contact page
+      const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+const navBg = document.getElementById("navBg");
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  menuToggle.classList.toggle("open");
+  navBg.classList.toggle("open");
+});
+// Close menu on link click (mobile UX)
+navLinks.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuToggle.classList.remove("open");
+    navBg.classList.remove("open");
+  });
+});
+// Close menu if nav-bg is clicked
+if (navBg) {
+  navBg.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuToggle.classList.remove("open");
+    navBg.classList.remove("open");
+  });
+}
+// Close menu if close-nav is clicked
+const closeNav = document.getElementById("closeNav");
+if (closeNav) {
+  closeNav.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuToggle.classList.remove("open");
+    if (navBg) navBg.classList.remove("open");
+  });
+}
+      // Animate Happy Customers section on scroll or load
+      function animateTestimonials() {
+        const cards = document.querySelectorAll(".testimonial-card.fade-up");
+        if ("IntersectionObserver" in window) {
+          const observer = new IntersectionObserver(
+            (entries, obs) => {
+              entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                  setTimeout(() => {
+                    entry.target.classList.add("animated");
+                  }, i * 180);
+                  obs.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.2 }
+          );
+          cards.forEach((card) => observer.observe(card));
+        } else {
+          // Fallback: animate all on load
+          cards.forEach((card, i) => {
+            setTimeout(() => card.classList.add("animated"), i * 180);
+          });
+        }
+      }
+      window.addEventListener("DOMContentLoaded", animateTestimonials);
+      window.addEventListener("scroll", animateTestimonials);
+    </script>
+  </body>
+</html>
